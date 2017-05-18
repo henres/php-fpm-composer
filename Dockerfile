@@ -1,7 +1,7 @@
 # Duplicate of dockerfile for 7.1 from https://github.com/maxpou/docker-symfony
 FROM php:7.1-fpm
 
-MAINTAINER Maxence POUTORD <maxence.poutord@gmail.com>
+MAINTAINER Henri d Auvigny <henri.dauvigny@gmail.com>
 
 RUN apt-get update && apt-get install -y \
     git \
