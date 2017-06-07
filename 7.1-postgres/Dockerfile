@@ -4,4 +4,4 @@ FROM henres/php-fpm-composer:7.1
 MAINTAINER Henri d Auvigny <henri.dauvigny@gmail.com>
 
 # enable mysql
-RUN docker-php-ext-install pdo_mysql
+RUN docker-php-ext-install pdo_pgsql
