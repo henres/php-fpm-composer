@@ -36,7 +36,7 @@ RUN docker-php-ext-configure zip --with-zlib-dir="/usr" && docker-php-ext-instal
 WORKDIR /tmp
 
 # Upgrade ICU to 60.1
-RUN curl -sS -o /tmp/icu.tar.gz -L http://download.icu-project.org/files/icu4c/60.1/icu4c-58_2-src.tgz && \
+RUN curl -sS -o /tmp/icu.tar.gz -L http://download.icu-project.org/files/icu4c/60.1/icu4c-60_1-src.tgz && \
 	tar -zxf /tmp/icu.tar.gz -C /tmp && \
 	cd /tmp/icu/source && \
 	./configure --prefix=/usr/local && \
